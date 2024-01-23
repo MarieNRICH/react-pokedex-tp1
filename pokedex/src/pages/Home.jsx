@@ -1,0 +1,13 @@
+import React from 'react';
+import Navbar from '../components/Navbar';
+
+const Home = () => {
+    return (
+        <div>
+            <Navbar />
+            <PokemonList />
+            <h1>Bienvenu sur la page d'accueil</h1>
+        </div>
+    );
+};
+export default Home;
