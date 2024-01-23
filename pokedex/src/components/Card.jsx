@@ -1,4 +1,5 @@
 import React from 'react';
+
 const Card = ({ pokemon }) => {
     return (
         <div className='cardPokemon'>

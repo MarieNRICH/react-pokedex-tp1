@@ -1,0 +1,25 @@
+$color-1: #1b53ba;
+$color-2: #E3350D;
+$color-3: #282c34;
+$gray: #919191;
+$white: #fff;
+@mixin verticalCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: $gray;
+    // @include verticalCenter;
+}
+
+li {
+    list-style-type: none;
+}

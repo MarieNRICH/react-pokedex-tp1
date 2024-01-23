@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from "axios";
+import Card from './Card';
 
 const PokemonList = () => {
     // Déclare une nouvelle variable d'état
@@ -19,12 +20,11 @@ const PokemonList = () => {
     }, []);
 
     return (
-        <div>
-            <ul>
+        <div className='pokemonList'>
                 {pokemons.map((pokemon, index) => (
-                    <li key={index}> {pokemon.name} </li>
-                ))}
-            </ul>
+                    <Card key={index} pokemon={pokemon} />                    
+            ))}
+            
         </div>
     );
 };

@@ -1,0 +1,23 @@
+.cardPokemon {
+    background-color: aliceblue;
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .contentPokemon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+            width: 125px;
+        }
+        h3 {
+            text-align: center;
+            font-size: 17px;
+        }
+    }
+}
